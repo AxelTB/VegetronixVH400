@@ -10,7 +10,7 @@ VegetronixVH400::VegetronixVH400(unsigned short pin, double voltage){
   pinMode(pin,INPUT);
 }
 
-double VegetronixVH400::readVWC(){
+double VegetronixVH400::getVWC(){
   //Get value in volt
   double ddp=(double) analogRead(this->pin)*this->ADCVoltage/1023;
 

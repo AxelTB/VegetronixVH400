@@ -13,7 +13,7 @@ public:
   */
   VegetronixVH400(unsigned short pin,double voltage=3.3);
   //Read water content
-  double readVWC();
-  virtual ~VegetronixVH400 ();
+  double getVWC();
+  //virtual ~VegetronixVH400 ();
 
 };
